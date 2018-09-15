@@ -1,6 +1,6 @@
 {
   "name": "@funcmatic/aws-ssm-plugin",
-  "version": "1.0.0-alpha",
+  "version": "2.0.0",
   "description": "AWS SSM Parameter Store plugin for the Funcmatic Lambda JS Framework",
   "main": "index.js",
   "scripts": {
@@ -14,10 +14,11 @@
   },
   "dependencies": {
     "aws-param-store": "^2.0.0",
-    "aws-sdk": "^2.263.1"
+    "dotenv": "^6.0.0"
   },
   "devDependencies": {
-    "@funcmatic/funcmatic": "^1.0.0-alpha",
+    "@funcmatic/funcmatic": "^2.1.0",
+    "aws-sdk": "^2.315.0",
     "jest": "^21.2.1"
   },
   "jest": {
